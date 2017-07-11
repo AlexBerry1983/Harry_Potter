@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import CharactersContainer from './container/CharactersContainer.jsx'
 
 window.addEventListener('load', function () {
   ReactDOM.render(
-    <h3>Application</h3>,
+    <CharactersContainer/>,
     document.getElementById('app')
   );
 });
